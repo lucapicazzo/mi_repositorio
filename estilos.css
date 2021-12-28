@@ -1,8 +1,27 @@
 body {
     margin: 0;
     font-family: "Source Sans Pro", sans-serif;
+    
   }
+  h1 {
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+ }
+ 
+ 
+ 
+ @keyframes aparecer {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+ }
   
+ 
+ 
   .header {
     padding: 0 45px;
     background-color: #FFF;
@@ -69,7 +88,7 @@ body {
   }
   
   .Modeloss {
-    background-color: #e8eaf6;
+    background-image: linear-gradient(rgb(230, 228, 222),rgb(89, 165, 236));
     padding: 60px 45px;
   }
   
